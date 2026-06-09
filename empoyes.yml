@@ -39,11 +39,11 @@ employes:
           Я же умный  
 
     place:
-      - country: Russia
-      - city: Moscow
-      - street: Lenina
-      - buildig: 1
-      - appartments: 10
+       country: Russia
+       city: Moscow
+       street: Lenina
+       building: 1
+       apartments: 10
 
     pets:
       - animal: cat
