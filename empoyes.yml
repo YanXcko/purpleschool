@@ -1,70 +1,62 @@
 employes:
-
   user:
     name: Yan
+    isAdmin: false
     age: 34
     job_title: devops
-    skills: 
-      sleeping
-      swimming
-      walking
-      drinking
-    place: Moscow
-    pets: {cat, dog, sheep}
+    skills:
+      - name: sleeping
+        level: 5
+        description: |
+          Вот тут длинный текст
+          Я уего пишу мультилайном
+          соблюдаю отспупы
+          в два пробела как красава
+          почему автоб говоли про таб?
+          Я хз, буду использовать пробелы
+          Я же умный
 
-  skills:
-    - name: sleeping
-      level: 5
-      description: |
-        Вот тут длинный текст
-        Я уего пишу мультилайном
-        соблюдаю отспупы
-        в два пробела как красава
-        почему автоб говоли про таб?
-        Я хз, буду использовать пробелы
-        Я же умный
-        
-    - name: swimming
-      level: 3
-      description: |
-        Вот тут длинный текст
-        Я уего пишу мультилайном
-        соблюдаю отспупы
-        в два пробела как красава
-        почему автоб говоли про таб?
-        Я хз, буду использовать пробелы
-        Я же умный
+      - name: swimming
+        level: 3
+        description: |
+          Вот тут длинный текст
+          Я уего пишу мультилайном
+          соблюдаю отспупы
+          в два пробела как красава
+          почему автоб говоли про таб?
+          Я хз, буду использовать пробелы
+          Я же умный
 
-    - name: drinking
-      level: 1
-      description: |
-        Вот тут длинный текст
-        Я уего пишу мультилайном
-        соблюдаю отспупы
-        в два пробела как красава
-        почему автоб говоли про таб?
-        Я хз, буду использовать пробелы
-        Я же умный        
+      - name: drinking
+        level: 1
+        description: |
+          Вот тут длинный текст
+          Я уего пишу мультилайном
+          соблюдаю отспупы
+          в два пробела как красава
+          почему автоб говоли про таб?
+          Я хз, буду использовать пробелы
+          Я же умный  
 
-  place:
-    country: Russia
-    city: Moscow
-    street: Lenina
-    buildig: 1
-    appartments: 10
+    place:
+      - country: Russia
+      - city: Moscow
+      - street: Lenina
+      - buildig: 1
+      - appartments: 10
 
-  pets:
-    - animal: cat
-      kind: default
-      cansaymeow: true
+    pets:
+      - animal: cat
+        kind: default
+        cansaymeow: true
 
-    - animal: dog
-      kind: buldog
-      cansaymeow: false  
+      - animal: dog
+        kind: buldog
+        cansaymeow: false  
 
-    - animal: sheep
-      kind: gornaya
-      cansaymeow: false     
+      - animal: sheep
+        kind: gornaya
+        cansaymeow: false     
 
 
 
